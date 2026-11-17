@@ -1,0 +1,12 @@
+
+## 🛠️ Core NLP Pipeline Used
+1. **Text Cleaning:** Removing punctuation, HTML tags, URLs, numbers, and converting text to lowercase.
+2. **Tokenization:** Splitting sentences into individual word tokens using **NLTK**.
+3. **Stopword Removal:** Filtering out high-frequency filler words (e.g., *the*, *is*, *and*) that carry little predictive value.
+4. **Stemming & Lemmatization:** Reducing words to their root or dictionary base form (`PorterStemmer` / `WordNetLemmatizer`).
+5. **Feature Extraction (Vectorization):** Converting cleaned text into numerical matrices using **Bag-of-Words (`CountVectorizer`)** and **TF-IDF (`TfidfVectorizer`)**.
+
+## 🚀 Libraries Used
+* **NLTK** (Natural Language Toolkit)
+* **Scikit-Learn**
+* **Pandas & NumPy**
