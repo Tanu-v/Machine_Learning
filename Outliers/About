@@ -1,0 +1,7 @@
+Removed Outliers from data and performed Different Regressions like:-
+1. Ridge Regression
+2. Lasso Regression
+3. Elastic Net Regression
+and predicted the desired output
+# Dataset 
+Cancer_Data.csv
